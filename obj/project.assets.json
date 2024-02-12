@@ -1150,19 +1150,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/lasse/.nuget/packages/": {}
+    "C:\\Users\\hoeeg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lasse/Documents/GitHub/DroneExercise_LSH/FirstDrone.csproj",
+      "projectUniqueName": "C:\\Users\\hoeeg\\Documents\\Repos\\DroneExercise_LSH\\FirstDrone.csproj",
       "projectName": "FirstDrone",
-      "projectPath": "/Users/lasse/Documents/GitHub/DroneExercise_LSH/FirstDrone.csproj",
-      "packagesPath": "/Users/lasse/.nuget/packages/",
-      "outputPath": "/Users/lasse/Documents/GitHub/DroneExercise_LSH/obj/",
+      "projectPath": "C:\\Users\\hoeeg\\Documents\\Repos\\DroneExercise_LSH\\FirstDrone.csproj",
+      "packagesPath": "C:\\Users\\hoeeg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hoeeg\\Documents\\Repos\\DroneExercise_LSH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lasse/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hoeeg\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1214,6 +1214,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.12, 7.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.12, 7.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.12, 7.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.12, 7.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1222,7 +1240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
       }
     }
   }
