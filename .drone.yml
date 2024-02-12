@@ -14,7 +14,7 @@ steps:
       - dotnet test
         
   - name: code-analysis
-    image: boulundeasv/dotenet-sdk-with-java
+    image: mcr.microsoft.com/dotnet/sdk
     commands:
       - dotnet sonarscanner begin /k:"easv-devops_DroneExercise_LSH_AY2dzKcyEVvRW2O60D9g" /d:sonar.host.url="http://sonar.setgo.dk:9000"  /d:sonar.token="sqp_ede123bba26ac6fb4b52d8fcb649a50e54af9d97"
       - dotnet build
