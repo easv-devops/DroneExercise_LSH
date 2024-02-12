@@ -11,4 +11,11 @@ public class Controller : ControllerBase
     {
         return Ok("Hello World");
     }
+    
+    [HttpGet]
+    [Route("/Goodbye")]
+    public IActionResult getGoodbye()
+    {
+        return Ok("Goodbye World");
+    }
 }
